@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Colour Blast</string>
+
+    <string-array name="listadim">
+        <item>5x5</item>
+        <item>6x6</item>
+        <item>7x7</item>
+        <item>8x8</item>
+        <item>9x9</item>
+        <item>10x10</item>
+        <item>11x11</item>
+        <item>12x12</item>
+        <item>13x13</item>
+        <item>14x14</item>
+        <item>15x15</item>
+        <item>16x16</item>
+        <item>17x17</item>
+        <item>18x18</item>
+        <item>19x19</item>
+        <item>20x20</item>
+    </string-array>
+
+    <!-- PopUpInfo_layout -->
+    <string name="info_text">
+        Si inizia dalla cella in alto a destra del campo di gioco.
+        Tocca i pulsanti colorati lungo la parte inferiore del campo di gioco per inondare tutte le celle adiacenti con quel colore.
+        Lo scopo del gioco è quello di riempire l\'intero campo di gioco con un singolo colore in un numero inferiore di mosse rispetto
+        al massimo consentito. Inoltre, abilitando la funzione "inditero", l\'utente ha la possibilità di cambiare l\'ultimo colore scelto
+        premendo l\'apposito pulsante che comparirà nel campo di gioco.
+    </string>
+
+
+    <string-array name="listacol">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

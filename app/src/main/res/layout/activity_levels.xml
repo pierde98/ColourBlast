@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".View.Activities.LevelsActivity">
+
+    <Button
+        android:id="@+id/Livello1"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginTop="70dp"
+        android:width="250dp"
+        android:height="50dp"
+        android:backgroundTint="?attr/buttoncolor"
+        android:text="Livello 1"
+        android:textColor="?attr/buttontextcolor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/Livello2"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:width="250dp"
+        android:height="50dp"
+        android:backgroundTint="?attr/buttoncolor"
+        android:text="Livello 2"
+        android:textColor="?attr/buttontextcolor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Livello1" />
+
+    <Button
+        android:id="@+id/Livello3"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:width="250dp"
+        android:height="50dp"
+        android:backgroundTint="?attr/buttoncolor"
+        android:text="Livello 3"
+        android:textColor="?attr/buttontextcolor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Livello2" />
+
+    <Button
+        android:id="@+id/Livello4"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:width="250dp"
+        android:backgroundTint="?attr/buttoncolor"
+        android:text="Livello 4"
+        android:textColor="?attr/buttontextcolor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Livello3" />
+
+    <Button
+        android:id="@+id/Livello5"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        android:width="250dp"
+        android:backgroundTint="?attr/buttoncolor"
+        android:text="Livello 5"
+        android:textColor="?attr/buttontextcolor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Livello4" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="313dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/livelli" />
+
+    <ImageButton
+        android:id="@+id/backButLevels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="?attr/backgroundcolor"
+        android:scaleType="fitStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_backbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

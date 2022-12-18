@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Light Mode theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="spinnerbackground">#DD8820</item>
+        <item name="backgroundcolor">#fefaf7</item>
+        <item name="textcolor">#272530</item>
+        <item name="textcolor1">#DD8820</item>
+        <item name="tintcolor">@color/colorAccent</item>
+        <item name="buttoncolor">#DD8820</item>
+        <item name="buttontextcolor">#ffffff</item>
+        <item name="popupcolor">#585859</item>
+    </style>
+
+    <!-- Dark Mode theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="spinnerbackground">@color/colorAccent</item>
+        <item name="backgroundcolor">#272530</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="textcolor1">@color/colorAccent</item>
+        <item name="tintcolor">@color/colorAccent</item>
+        <item name="buttoncolor">@color/colorAccent</item>
+        <item name="popupcolor">#ffffff</item>
+
+    </style>
+
+    <style name="SplashThemeCommon" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splashscreen</item>
+    </style>
+
+    <style name="SplashScreen" parent="SplashThemeCommon">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

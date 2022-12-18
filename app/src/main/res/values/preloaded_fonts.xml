@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/advent_pro</item>
+        <item>@font/advent_pro_medium</item>
+        <item>@font/aladin</item>
+        <item>@font/amita_bold</item>
+        <item>@font/atomic_age</item>
+        <item>@font/bangers</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/bungee_outline</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/caveat_brush</item>
+        <item>@font/sigmar_one</item>
+    </array>
+</resources>

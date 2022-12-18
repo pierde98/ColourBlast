@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.unipg.pigdm.colourblast">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View.Activities.PopUpSettMain" />
+        <activity android:name=".popUpSettingMain" />
+        <activity android:name=".View.Activities.PopUpInfo" />
+        <activity android:name=".View.Activities.MainActivity" />
+        <activity android:name=".View.Activities.AllenamentoActivity" />
+        <activity android:name=".View.Activities.LevelsActivity" />
+        <activity
+            android:name=".View.Activities.SplashScreenActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".View.Activities.MenuActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
